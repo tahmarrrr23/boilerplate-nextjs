@@ -716,6 +716,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"boilerplate-nextjs@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "boilerplate-nextjs@workspace:."
+  dependencies:
+    "@types/node": ^20.11.14
+    "@types/react": ^18.2.50
+    "@types/react-dom": ^18.2.18
+    "@typescript-eslint/eslint-plugin": ^6.20.0
+    "@typescript-eslint/parser": ^6.20.0
+    eslint: ^8.56.0
+    eslint-config-next: ^14.1.0
+    eslint-config-prettier: ^9.1.0
+    next: ^14.1.0
+    prettier: ^3.2.4
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    typescript: ^5.3.3
+  languageName: unknown
+  linkType: soft
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -2180,26 +2200,6 @@ __metadata:
   checksum: aa92de608021b242401676e35cfa5aa42dd70cbdc082b916da7fb925c542173e36bce97ea3e804923fe92c0ad991434e4a38327e15a1b5b5f945d66df615ae6d
   languageName: node
   linkType: hard
-
-"my-boilerplate-nextjs@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "my-boilerplate-nextjs@workspace:."
-  dependencies:
-    "@types/node": ^20.11.14
-    "@types/react": ^18.2.50
-    "@types/react-dom": ^18.2.18
-    "@typescript-eslint/eslint-plugin": ^6.20.0
-    "@typescript-eslint/parser": ^6.20.0
-    eslint: ^8.56.0
-    eslint-config-next: ^14.1.0
-    eslint-config-prettier: ^9.1.0
-    next: ^14.1.0
-    prettier: ^3.2.4
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    typescript: ^5.3.3
-  languageName: unknown
-  linkType: soft
 
 "nanoid@npm:^3.3.6":
   version: 3.3.7
