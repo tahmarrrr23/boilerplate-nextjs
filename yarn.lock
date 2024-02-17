@@ -901,7 +901,8 @@ __metadata:
     react-dom: ^18.2.0
     sass: ^1.71.0
     stylelint: ^16.2.1
-    stylelint-config-standard: ^36.0.0
+    stylelint-config-prettier-scss: ^1.0.0
+    stylelint-config-recess-order: ^4.6.0
     stylelint-config-standard-scss: ^13.0.0
     typescript: ^5.3.3
   languageName: unknown
@@ -3338,6 +3339,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-sorting@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "postcss-sorting@npm:8.0.2"
+  peerDependencies:
+    postcss: ^8.4.20
+  checksum: ebb5cc6a2982a1f0bb8332669e425793ebc01c30fa83ea981c765d64d212e289bef5fdb1e627904c471cb75f1ad0727ed9e85c0d879e263590c8fc64eecf31c2
+  languageName: node
+  linkType: hard
+
 "postcss-value-parser@npm:^4.2.0":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
@@ -3356,7 +3366,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.33":
+"postcss@npm:^8.4.32, postcss@npm:^8.4.33":
   version: 8.4.35
   resolution: "postcss@npm:8.4.35"
   dependencies:
@@ -3949,6 +3959,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"stylelint-config-prettier-scss@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "stylelint-config-prettier-scss@npm:1.0.0"
+  peerDependencies:
+    stylelint: ">=15.0.0"
+  bin:
+    stylelint-config-prettier-scss: bin/check.js
+    stylelint-config-prettier-scss-check: bin/check.js
+  checksum: 046d4792a44531fb4d59f9f730c11b0bbed83e50dd1a90c885e3f3b59c1338a5463287dca4a784e8498ca5e685dc606ec07367a88e2122b73130392b4c9f5719
+  languageName: node
+  linkType: hard
+
+"stylelint-config-recess-order@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "stylelint-config-recess-order@npm:4.6.0"
+  dependencies:
+    stylelint-order: 6.x
+  peerDependencies:
+    stylelint: ">=15"
+  checksum: 53772f404e93767fafa4528949ee2796f23639808ea8185f43b63a5d494a4747e6c5bbf401d0dc136c69be8385c48f55434cdb99f7578894a47faccee95a2464
+  languageName: node
+  linkType: hard
+
 "stylelint-config-recommended-scss@npm:^14.0.0":
   version: 14.0.0
   resolution: "stylelint-config-recommended-scss@npm:14.0.0"
@@ -3999,6 +4032,18 @@ __metadata:
   peerDependencies:
     stylelint: ^16.1.0
   checksum: 78b14cdfdd03be409687acc863ef88d0e79d9a7f7ab3a9158e7dcd74212893db24841d22f076f248f3b1b6419d778538a5c885dc42fc056eaeb240463edf2f8f
+  languageName: node
+  linkType: hard
+
+"stylelint-order@npm:6.x":
+  version: 6.0.4
+  resolution: "stylelint-order@npm:6.0.4"
+  dependencies:
+    postcss: ^8.4.32
+    postcss-sorting: ^8.0.2
+  peerDependencies:
+    stylelint: ^14.0.0 || ^15.0.0 || ^16.0.1
+  checksum: 66ed8a80b34b98994e38d75671766f102d47c73362495b77861f0648efcc75cf3ad6f30f988c3cf16c9747ac139087ef1ff71b3bea40f9c5e081a25ebeb34feb
   languageName: node
   linkType: hard
 
